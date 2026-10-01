@@ -1,8 +1,19 @@
 import json
+import os
+import sys
 from pathlib import Path
 from typing import Any, Dict
 
-DEFAULT_SAVE_PATH = Path("saves") / "save.json"
+def default_save_path() -> Path:
+    if getattr(sys, "frozen", False):
+        # One-file bundles extract resources to a temporary directory.
+        # Keep player data in a stable, writable location outside the bundle.
+        local_data = Path(os.environ.get("LOCALAPPDATA") or Path.home() / "AppData" / "Local")
+        return local_data / "TimbaRNG" / "saves" / "save.json"
+    return Path("saves") / "save.json"
+
+
+DEFAULT_SAVE_PATH = default_save_path()
 
 
 def ensure_save_dir(path: str | Path) -> Path:

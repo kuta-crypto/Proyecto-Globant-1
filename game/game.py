@@ -27,7 +27,7 @@ from game.scatter import (
     jackpot_near_miss,
     resolve_scatter_cascades,
 )
-from game.save_system import load_game, save_game
+from game.save_system import DEFAULT_SAVE_PATH, load_game, save_game
 from game.settings import GameSettings
 from game.slot_animation import build_reels, cascade_paths, reel_offset
 from game.upgrades import UPGRADE_BASE_COSTS, upgrade_cost, upgrade_effect, bulk_quote
@@ -192,7 +192,7 @@ class TimbaRNGGame:
         self.reel_stop_times = [0.0] * GRID_SIZE
         self.jackpot_triggered = False
         self.spin_result_text = ""
-        self.save_path = "saves/save.json"
+        self.save_path = DEFAULT_SAVE_PATH
         self.stats = {
             "total_spins": 0,
             "lines": 0,
