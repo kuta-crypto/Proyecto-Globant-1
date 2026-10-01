@@ -1,0 +1,128 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "date": "2026-09-29",
+  "requested_style": "Anime con sombras simples",
+  "assets": [
+    {
+      "file": "assets/worlds/world_1.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Landscape background, 16:9. Timba Central: a cozy late-night Japanese arcade interior, worn dark wood, rows of retro slot cabinets at far left and far right, amber ceiling lamps, muted indigo shadows. Strong perspective towards a quiet mostly empty dark center reserved for game board. Environment only, no people."
+    },
+    {
+      "file": "assets/worlds/world_2.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Landscape background, 16:9. Metro Neon: an empty anime underground train station at night, teal tiled columns on left, warm orange train windows on far right, overhead cables and puddle reflections. Restrained cyan and charcoal with small coral highlights. Quiet low detail center reserved for game board. Environment only, no people."
+    },
+    {
+      "file": "assets/worlds/world_3.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Landscape background, 16:9. Bosque Jade: moonlit Japanese forest shrine, giant cedar trunks framing sides, small weathered stone lanterns, jade moss, distant mist and turquoise stream. Sage green, muted teal, small warm cream lanterns. Quiet open dark center for game board. Environment only, no people."
+    },
+    {
+      "file": "assets/worlds/world_4.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Landscape background, 16:9. Casino Obsidiana: old extravagant underground casino built into black volcanic rock, angular stone arches, red velvet curtains framing sides, amber hanging lamps, thin lava cracks at bottom, muted burgundy and charcoal. Quiet dark open center for game board. Environment only, no people."
+    },
+    {
+      "file": "assets/worlds/world_5.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Landscape background, 16:9. Galaxia Dorada: anime observatory terrace overlooking a golden ringed planet and deep navy stars, low stone railing, telescope silhouette at left, ancient celestial arch at right. Dusty gold and deep midnight blue, elegant sparse star field. Quiet dark center for game board. Environment only, no people."
+    },
+    {
+      "file": "assets/pets/comun_01.png",
+      "prompt": "Square illustration of Chispa, a cheerful orange salamander animal companion for a 2D adventure game. Four small feet, curved tail with a golden star-shaped marking, cream belly, big dark eyes, friendly smile. One single whole animal centered with ample margin. Hand-drawn anime cel style, confident dark outlines, flat colors and simple two-tone shadows. Plain dark navy background. No text or frame, no photorealism, no 3D rendering. Consistent professional production art."
+    },
+    {
+      "file": "assets/pets/comun_02.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: a small cream hamster holding one chunky red dice, rounded ears and a cheeky wink. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    },
+    {
+      "file": "assets/pets/comun_03.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: a plump little brown sparrow wearing a short cream scarf, holding a bread crumb. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    },
+    {
+      "file": "assets/pets/comun_04.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: a sleepy white cloud-shaped rabbit with long soft ears and pale blue shadow patches. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    },
+    {
+      "file": "assets/pets/comun_05.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: a small yellow chick wearing a little blue neckerchief, one raised wing. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    },
+    {
+      "file": "assets/pets/comun_06.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: a tiny friendly tin robot mouse made of chunky gray metal panels and a brass wind-up key. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    },
+    {
+      "file": "assets/pets/comun_07.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: a round tan raccoon holding a little taiko drum and two short sticks. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    },
+    {
+      "file": "assets/pets/comun_08.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: a small lively wooden owl forest spirit with two leaf eyebrows and a simple turquoise belly marking. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    },
+    {
+      "file": "assets/pets/comun_09.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: a small calico lucky cat hugging one oversized plain brass coin with no writing. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    },
+    {
+      "file": "assets/pets/comun_10.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: a fluffy slate-gray puppy with pointed ears and a little yellow lightning-shaped forehead tuft. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    },
+    {
+      "file": "assets/pets/rara_01.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: a mischievous russet fox cub with a cream bib and one huge fluffy tail. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    },
+    {
+      "file": "assets/pets/rara_02.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: a navy owl with cream face, silver crescent-shaped feather tuft and bright gold eyes. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    },
+    {
+      "file": "assets/pets/rara_03.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: a lean yellow stoat with black-tipped ears and a zigzag dark stripe along its body. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    },
+    {
+      "file": "assets/pets/rara_04.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: a friendly round green cactus creature with stubby arms, terracotta pot feet, one coral flower. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    },
+    {
+      "file": "assets/pets/rara_05.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: a small blue flying squirrel with a long comet-shaped cream tail and little star-shaped clasp. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    },
+    {
+      "file": "assets/pets/rara_06.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: a squat friendly stone golem with chunky mossy arms and an amber stone heart. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    },
+    {
+      "file": "assets/pets/rara_07.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: a small lavender axolotl with coral external gills, blue tail and paintbrush-like tail tip. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    },
+    {
+      "file": "assets/pets/epica_01.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: a little emerald dragon with small ochre wings, two tiny cream horns and a brave expression. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    },
+    {
+      "file": "assets/pets/epica_02.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: a young phoenix bird with coral red feathers, gold wing tips and three long flame-shaped tail feathers. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    },
+    {
+      "file": "assets/pets/epica_03.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: a mysterious indigo cat with a small third-eye-shaped cream forehead marking and a simple star-patterned shawl. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    },
+    {
+      "file": "assets/pets/epica_04.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: a white fox spirit with three large curling tails, red ear tips and subtle red cheek marks. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    },
+    {
+      "file": "assets/pets/epica_05.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: a round midnight-blue floating manta ray creature with a cream belly and a few star-shaped markings. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    },
+    {
+      "file": "assets/pets/legendaria_01.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: a proud young lion with a graphic golden sun-shaped mane, cream body and deep russet paws. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    },
+    {
+      "file": "assets/pets/legendaria_02.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: an elegant small turquoise eastern dragon serpent coiled in an S shape, cream whiskers and muted gold horns. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    },
+    {
+      "file": "assets/pets/mitica_01.png",
+      "prompt": "Use case: stylized-concept. Asset for an indie 2D anime arcade RPG. Clean confident ink outlines, restrained cel shading with exactly two shadow tones, hand-drawn 1990s animation production cel feel, expressive but simple shapes. No photorealism, no 3D, no glossy rendering, no bloom, no generic AI fantasy ornamentation, no text, no watermark. Square pet portrait asset. Subject: a small powerful black and gold guardian tiger with bold cream face markings, a simple brass crown and a large striped tail, dignified rather than glittery. One single complete creature centered, three-quarter view, whole body visible with a generous 12 percent empty margin. Strong readable silhouette at thumbnail size, appealing eyes, slightly imperfect hand-drawn linework. Flat dark navy background (#141c2a), no scenery, no frame, no text. Keep design simple and memorable."
+    }
+  ]
+}
+

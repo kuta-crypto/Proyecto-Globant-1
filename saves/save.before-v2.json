@@ -1,0 +1,83 @@
+{
+  "level": 8,
+  "xp": 261,
+  "gold": 6043,
+  "points": 3800,
+  "current_world": 1,
+  "unlocked_worlds": [
+    1
+  ],
+  "character_unlocks": [
+    "oliva"
+  ],
+  "current_character": "oliva",
+  "upgrade_levels": {
+    "spin_speed": 0,
+    "luck": 0,
+    "bonus_chance": 0,
+    "point_gain": 0,
+    "xp_gain": 0,
+    "payout": 0,
+    "jackpot": 0,
+    "bet_discount": 0,
+    "bonus_spins": 0,
+    "safety_net": 0
+  },
+  "settings": {
+    "master_volume": 1.0,
+    "music_enabled": true,
+    "sound_enabled": true,
+    "animations_enabled": true,
+    "fullscreen": false,
+    "animation_speed": 2.0
+  },
+  "abilities": {
+    "purchased": [],
+    "equipped": [],
+    "cooldowns": {
+      "bonus_auto": 0.0,
+      "luck_x2": 0.0,
+      "turbo": 0.0,
+      "fortune": 0.0,
+      "cashback": 0.0,
+      "jackpot_boost": 0.0,
+      "bonus_round": 0.0
+    }
+  },
+  "gear_owned": [],
+  "gear_equipped": {},
+  "run_state": {
+    "bet_amount": 201,
+    "last_bet": 201,
+    "bonus_spins_remaining": 0,
+    "bonus_multiplier": 2.0
+  },
+  "profile_state": {
+    "pet_collection": [
+      "comun_08"
+    ],
+    "active_pet": "comun_08",
+    "pet_pity": {
+      "epic": 1,
+      "legendary": 1,
+      "mythic": 1
+    },
+    "pending_pets": [],
+    "pet_animation_progress": 7.0,
+    "revealed_pets": [
+      "comun_08"
+    ],
+    "duplicate_pet_indices": []
+  },
+  "stats": {
+    "total_spins": 33,
+    "lines": 359,
+    "bonuses": 3,
+    "gold_earned": 10630,
+    "points_earned": 5000,
+    "xp_earned": 5088,
+    "best_line": 22,
+    "best_bonus": 6,
+    "most_common_symbol": "coin"
+  }
+}

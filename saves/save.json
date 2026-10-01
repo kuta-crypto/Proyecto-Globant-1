@@ -1,0 +1,191 @@
+{
+  "economy_version": 2,
+  "level": 33,
+  "xp": 1699,
+  "gold": 1020031421959,
+  "points": 3453,
+  "current_world": 4,
+  "unlocked_worlds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "character_unlocks": [
+    "oliva",
+    "labu",
+    "lauta",
+    "jere",
+    "franco",
+    "alejo",
+    "alba"
+  ],
+  "current_character": "labu",
+  "upgrade_levels": {
+    "spin_speed": 8,
+    "luck": 10,
+    "bonus_chance": 8,
+    "point_gain": 10,
+    "xp_gain": 10,
+    "payout": 12,
+    "jackpot": 8,
+    "bet_discount": 5,
+    "bonus_spins": 3,
+    "safety_net": 8
+  },
+  "settings": {
+    "master_volume": 1.0,
+    "music_enabled": true,
+    "sound_enabled": true,
+    "animations_enabled": true,
+    "fullscreen": true,
+    "animation_speed": 2.0
+  },
+  "abilities": {
+    "version": 2,
+    "purchased": [
+      "bonus_auto",
+      "luck_x2",
+      "fortune",
+      "cashback",
+      "jackpot_boost",
+      "bonus_round",
+      "study",
+      "collector",
+      "shield",
+      "cascade_power",
+      "turbo",
+      "resonance"
+    ],
+    "equipped": [
+      "bonus_auto",
+      "luck_x2",
+      "fortune"
+    ],
+    "cooldowns": {
+      "bonus_auto": 0,
+      "luck_x2": 0,
+      "turbo": 0,
+      "fortune": 0,
+      "cashback": 0,
+      "jackpot_boost": 0,
+      "bonus_round": 0,
+      "study": 0,
+      "collector": 0,
+      "shield": 0,
+      "resonance": 0,
+      "cascade_power": 0
+    },
+    "armed": []
+  },
+  "gear_owned": [
+    "lucky_charm",
+    "golden_boots",
+    "coin_pendant",
+    "bonus_badge",
+    "payout_ring",
+    "jackpot_crown",
+    "scholar_charm",
+    "ward_ring",
+    "collector_badge",
+    "wanderer_boots",
+    "jade_relic",
+    "sage_crown"
+  ],
+  "gear_equipped": {
+    "Amuleto": "scholar_charm",
+    "Botas": "golden_boots",
+    "Reliquia": "coin_pendant",
+    "Insignia": "bonus_badge",
+    "Anillo": "payout_ring",
+    "Corona": "sage_crown"
+  },
+  "run_state": {
+    "bet_amount": 999999999,
+    "last_bet": 999999999,
+    "bonus_spins_remaining": 0,
+    "bonus_multiplier": 1.52
+  },
+  "profile_state": {
+    "pet_copies": {
+      "rara_05": 3,
+      "comun_05": 2,
+      "comun_07": 1,
+      "comun_06": 4,
+      "epica_02": 1,
+      "comun_01": 2,
+      "comun_04": 3,
+      "comun_10": 2,
+      "comun_03": 1,
+      "epica_01": 1,
+      "mitica_01": 1
+    },
+    "character_mastery": {
+      "lauta": 4,
+      "oliva": 3,
+      "labu": 3
+    },
+    "companion_charges": {
+      "character:oliva": 2,
+      "pet:comun_08": 0,
+      "character:lauta": 0,
+      "character:labu": 3,
+      "pet:epica_02": 4,
+      "pet:rara_05": 3
+    },
+    "pet_collection": [
+      "comun_08",
+      "rara_05",
+      "comun_05",
+      "comun_07",
+      "comun_06",
+      "epica_02",
+      "comun_01",
+      "comun_04",
+      "comun_10",
+      "comun_03",
+      "epica_01",
+      "mitica_01"
+    ],
+    "active_pet": "rara_05",
+    "pet_pity": {
+      "epic": 4,
+      "legendary": 4,
+      "mythic": 4
+    },
+    "pending_pets": [],
+    "pet_animation_progress": 2.4,
+    "revealed_pets": [
+      "comun_10",
+      "comun_03",
+      "comun_04",
+      "epica_01",
+      "comun_06",
+      "mitica_01",
+      "comun_04",
+      "comun_06",
+      "comun_05",
+      "rara_05"
+    ],
+    "duplicate_pet_indices": [
+      0,
+      2,
+      4,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "stats": {
+    "total_spins": 1125,
+    "lines": 1427,
+    "bonuses": 444,
+    "gold_earned": 1052015557055,
+    "points_earned": 20853,
+    "xp_earned": 36260,
+    "best_line": 24,
+    "best_bonus": 9,
+    "most_common_symbol": "coin"
+  }
+}

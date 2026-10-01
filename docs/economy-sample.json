@@ -1,0 +1,17 @@
+{
+  "seed": 20260929,
+  "paid_spins": 1000,
+  "free_spins": 40,
+  "wager": 10,
+  "world": 1,
+  "character": "oliva",
+  "upgrades": false,
+  "starting_gold": 100,
+  "ending_gold": 7632,
+  "net_gold_per_paid_spin": 7.532,
+  "median_prize": 8.0,
+  "mean_prize": 9.165,
+  "zero_prize_spins": 0,
+  "ending_level": 37,
+  "earned_points": 249180
+}

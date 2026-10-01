@@ -1,0 +1,30 @@
+{
+  "spins": 1000000,
+  "seed": 20260930,
+  "target_rtp": 0.96,
+  "payout_scale": 1.6364,
+  "measured_rtp": 0.9626931381625132,
+  "rtp_95_percent_interval": [
+    0.958058707485428,
+    0.9673275688395985
+  ],
+  "hit_rate": 0.435512,
+  "net_win_rate": 0.237069,
+  "no_award_rate": 0.564488,
+  "mean_cascades": 1.080802,
+  "capped_spins": 2886,
+  "highest_sampled_multiplier": 83.29276,
+  "rounding_example": {
+    "wager": 10,
+    "rtp_after_integer_floor": 0.9426736
+  },
+  "suggested_offline_scale": 1.631822164016305,
+  "exclusions": [
+    "character and pet effects",
+    "luck modifiers",
+    "travel gold",
+    "equipment",
+    "free spins",
+    "rounding except in rounding_example"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "economy_version": 2,
+  "level": 40,
+  "xp": 120,
+  "gold": 250,
+  "points": 900,
+  "current_world": 2,
+  "unlocked_worlds": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "character_unlocks": [
+    "oliva",
+    "labu",
+    "lauta",
+    "jere",
+    "franco",
+    "alejo",
+    "alba",
+    "berta"
+  ],
+  "current_character": "oliva",
+  "upgrade_levels": {
+    "spin_speed": 0,
+    "luck": 0,
+    "bonus_chance": 0,
+    "point_gain": 0,
+    "xp_gain": 0,
+    "payout": 0,
+    "jackpot": 0,
+    "bet_discount": 0,
+    "bonus_spins": 0,
+    "safety_net": 0
+  }
+}
