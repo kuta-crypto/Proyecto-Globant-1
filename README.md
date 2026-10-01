@@ -21,120 +21,120 @@ TimbaRNG is a 2D slot-inspired RNG game built with Python and Pygame.
 - save/load via JSON
 - settings configuration
 
-## Jugar en Windows con el ejecutable (.exe)
+## Play on Windows with the executable (.exe)
 
-El archivo para compartir es **`dist/TimbaRNG.exe`**. Incluye Python, las dependencias y los recursos del juego. En la computadora de destino no hace falta instalar Python, Thonny ni VS Code, ni copiar `.venv` o `assets/`.
+The file to share is **`dist/TimbaRNG.exe`**. It includes Python, dependencies, and game assets. The destination computer does not need Python, Thonny, or VS Code installed, or copies of `.venv` or `assets/`.
 
-1. Copiá `TimbaRNG.exe` a la otra PC con Windows de 64 bits.
-2. Abrilo con doble clic. El inicio puede tardar unos segundos mientras extrae los recursos a una carpeta temporal.
-3. Las partidas y la configuración se guardan por usuario en `%LOCALAPPDATA%\TimbaRNG\saves\save.json`. Podés abrir esa carpeta pegando `%LOCALAPPDATA%\TimbaRNG\saves` en la barra del Explorador de archivos.
+1. Copy `TimbaRNG.exe` to the other 64-bit Windows PC.
+2. Double-click it. Startup may take a few seconds while it extracts resources to a temporary folder.
+3. Saved games and settings are stored per user in `%LOCALAPPDATA%\TimbaRNG\saves\save.json`. Open this folder by pasting `%LOCALAPPDATA%\TimbaRNG\saves` into the File Explorer address bar.
 
-Para trasladar una partida de la versión Python, cerrá el juego y copiá tu archivo `saves/save.json` a esa carpeta. Si ya existe una partida de la versión `.exe`, hacé una copia antes de reemplazarla. Compartir el ejecutable no comparte tus partidas.
+To transfer a saved game from the Python version, close the game and copy your `saves/save.json` file into that folder. If a save from the `.exe` version already exists, back it up before replacing it. Sharing the executable does not share your saved games.
 
-### Volver a generar el ejecutable después de modificar el juego
+### Rebuild the executable after modifying the game
 
-Estos pasos son para quien compila el juego; quien recibe el `.exe` no tiene que ejecutarlos. Compilá en Windows usando Python de 64 bits. Primero creá `.venv` siguiendo las instrucciones de abajo si todavía no existe.
+These steps are for the person building the game; anyone receiving the `.exe` does not need to run them. Build on Windows using 64-bit Python. If `.venv` does not exist yet, create it using the instructions below.
 
-Desde la carpeta del proyecto:
+From the project folder:
 
 ```powershell
 .\build_exe.ps1
 ```
 
-El script instala `requirements-build.txt` y genera `dist/TimbaRNG.exe` con [PyInstaller](https://pyinstaller.org/en/stable/usage.html). Si PowerShell bloquea el script por su política de ejecución, podés ejecutar directamente sus dos comandos principales:
+The script installs `requirements-build.txt` and generates `dist/TimbaRNG.exe` with [PyInstaller](https://pyinstaller.org/en/stable/usage.html). If PowerShell blocks the script because of its execution policy, you can run its two main commands directly:
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -r requirements-build.txt
 .\.venv\Scripts\python.exe -m PyInstaller --noconfirm --clean --onefile --windowed --name TimbaRNG --add-data "assets:assets" --exclude-module pytest main.py
 ```
 
-Esperá a que termine sin errores. Cerrá cualquier instancia del ejecutable antes de recompilar. Cada compilación reemplaza `dist/TimbaRNG.exe`; las partidas quedan fuera del paquete. `build/` y `TimbaRNG.spec` son archivos de trabajo de la compilación y no hace falta distribuirlos. Esta compilación es para Windows; no genera una aplicación para macOS o Linux.
+Wait for the build to finish without errors. Close any running instance of the executable before rebuilding. Each build replaces `dist/TimbaRNG.exe`; saved games remain outside the bundle. `build/` and `TimbaRNG.spec` are build files and do not need to be distributed. This build targets Windows; it does not produce a macOS or Linux application.
 
-## Instalación y ejecución en Windows (PowerShell)
+## Install and run on Windows (PowerShell)
 
-Estos pasos sirven tanto para esta PC como para otra computadora con Windows. Ejecutá los comandos en una terminal **PowerShell**, por ejemplo desde **Terminal > Nueva terminal** en VS Code. Copiá solamente los comandos dentro de los bloques, una línea por vez, sin las marcas de Markdown ni el prefijo `PS C:\...>` de la terminal.
+These steps apply to both this PC and another Windows computer. Run the commands in a **PowerShell** terminal, for example through **Terminal > New Terminal** in VS Code. Copy only the commands inside the code blocks, one line at a time, without Markdown markers or the terminal's `PS C:\...>` prompt.
 
-### 1. Instalar Python
+### 1. Install Python
 
-Si la computadora todavía no tiene Python, instalá Python 3 para Windows desde el sitio oficial de Python. Si el instalador ofrece **Add Python to PATH**, marcá esa opción. Después cerrá y volvé a abrir la terminal para que reconozca la instalación.
+If the computer does not have Python yet, install Python 3 for Windows from the official Python website. If the installer offers **Add Python to PATH**, select that option. Then close and reopen the terminal so it recognizes the installation.
 
-Comprobá que funciona:
+Check that it works:
 
 ```powershell
 python --version
 ```
 
-Debe mostrar una versión de Python 3. Si `python` no se reconoce o aparece el mensaje de Microsoft Store, probá:
+It should display a Python 3 version. If `python` is not recognized or you see a Microsoft Store message, try:
 
 ```powershell
 py --version
 ```
 
-Si funciona `py`, usá `py` en lugar de `python` al crear el entorno en el paso 3. Si ninguno funciona, completá o repará la instalación de Python antes de continuar. Thonny y VS Code son opcionales para ejecutar el juego.
+If `py` works, use `py` instead of `python` when creating the environment in step 3. If neither works, complete or repair the Python installation before continuing. Thonny and VS Code are optional for running the game.
 
-### 2. Copiar el proyecto y abrir su carpeta
+### 2. Copy the project and open its folder
 
-Copiá o descargá el proyecto completo y, si viene en un ZIP, extraelo antes de ejecutarlo. Conservá la estructura de carpetas: hacen falta `main.py`, `requirements.txt`, `game/`, `assets/` y los demás archivos del proyecto. Copiar solamente `main.py` no alcanza.
+Copy or download the entire project. If it comes in a ZIP file, extract it before running it. Keep the folder structure intact: you need `main.py`, `requirements.txt`, `game/`, `assets/`, and the other project files. Copying only `main.py` is not enough.
 
-**No copies `.venv` desde otra PC:** el entorno virtual contiene rutas y ejecutables propios del equipo donde se creó. Creá uno nuevo en cada computadora. Tampoco hace falta copiar las carpetas `__pycache__`. Si querés conservar tu progreso, copiá también `saves/`, si existe.
+**Do not copy `.venv` from another PC:** the virtual environment contains paths and executables specific to the computer where it was created. Create a new one on each computer. You do not need to copy `__pycache__` folders either. To keep your progress, also copy `saves/` if it exists.
 
-En VS Code, abrí la carpeta que contiene `main.py` y luego abrí una terminal PowerShell. También podés entrar desde una terminal existente con `cd`; reemplazá esta ruta por la ubicación real del proyecto:
+In VS Code, open the folder containing `main.py`, then open a PowerShell terminal. You can also navigate there from an existing terminal using `cd`; replace this example path with the actual project location:
 
 ```powershell
-cd "C:\ruta\al\proyecto"
+cd "C:\path\to\project"
 ```
 
-Para comprobar que estás en la carpeta correcta:
+To check that you are in the correct folder:
 
 ```powershell
 Get-Item .\main.py, .\requirements.txt
 ```
 
-Si no encuentra alguno de los archivos, corregí la carpeta antes de continuar.
+If either file cannot be found, switch to the correct folder before continuing.
 
-### 3. Crear un entorno virtual (una vez por computadora)
+### 3. Create a virtual environment (once per computer)
 
-El entorno `.venv` guarda Python y las dependencias del proyecto por separado de otros proyectos.
+The `.venv` environment keeps Python and the project's dependencies separate from other projects.
 
 ```powershell
 python -m venv .venv
 ```
 
-Si en el paso 1 funcionó `py` en lugar de `python`, ejecutá esta alternativa:
+If `py` worked instead of `python` in step 1, use this alternative:
 
 ```powershell
 py -m venv .venv
 ```
 
-Usá solo una de las dos opciones. Si ya tenés un `.venv` creado en esta PC y funciona, podés reutilizarlo. Verificá su intérprete con:
+Use only one of these options. If you already have a working `.venv` created on this PC, you can reuse it. Check its interpreter with:
 
 ```powershell
 .\.venv\Scripts\python.exe --version
 ```
 
-### 4. Instalar las dependencias
+### 4. Install dependencies
 
-Desde la misma carpeta del proyecto, ejecutá:
+From the same project folder, run:
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
-Esperá a que termine sin errores. Esto instala las dependencias de `requirements.txt` dentro de `.venv`. Se hace la primera vez y se repite si se actualiza ese archivo o se recrea el entorno.
+Wait for the command to finish without errors. This installs the dependencies listed in `requirements.txt` into `.venv`. Run it during initial setup and again if that file changes or you recreate the environment.
 
-El comando `python -m pip install -r requirements.txt` también instala dependencias, pero usa el Python que resuelva la terminal. Los comandos de esta guía apuntan explícitamente a `.venv` para instalar y ejecutar con el mismo intérprete.
+The command `python -m pip install -r requirements.txt` also installs dependencies, but uses whichever Python the terminal resolves. The commands in this guide explicitly target `.venv` so installation and execution use the same interpreter.
 
-### 5. Iniciar el juego
+### 5. Start the game
 
 ```powershell
 .\.venv\Scripts\python.exe main.py
 ```
 
-**Este es el comando que usás cada vez que quieras jugar**, desde la carpeta del proyecto. No hace falta activar el entorno virtual ni volver a instalar las dependencias en cada inicio. Iniciá siempre desde `main.py` para que las importaciones del paquete `game` funcionen correctamente.
+**Use this command every time you want to play**, from the project folder. You do not need to activate the virtual environment or reinstall dependencies each time. Always start the game from `main.py` so imports from the `game` package work correctly.
 
-### Resumen para una PC nueva
+### Quick setup on a new PC
 
-Con Python instalado y la terminal ubicada en la carpeta que contiene `main.py`:
+With Python installed and the terminal in the folder containing `main.py`:
 
 ```powershell
 python -m venv .venv
@@ -142,38 +142,38 @@ python -m venv .venv
 .\.venv\Scripts\python.exe main.py
 ```
 
-Si tu instalación responde a `py`, reemplazá solo el `python` de la primera línea por `py`.
+If your installation responds to `py`, replace only `python` on the first line with `py`.
 
-### Alternativa: usar Python de Thonny
+### Alternative: use Thonny's Python
 
-Usá esta opción solamente si tenés Thonny instalado y conocés la ruta de su `python.exe`. La ubicación depende de cómo se haya instalado; no es la misma en todas las computadoras.
+Use this option only if Thonny is installed and you know the path to its `python.exe`. The location depends on how it was installed and is not the same on every computer.
 
-Podés comprobar esta ubicación de ejemplo con:
+Check this example location with:
 
 ```powershell
 Test-Path "$env:LOCALAPPDATA\Programs\Thonny\python.exe"
 ```
 
-Solo si devuelve `True`, podés usar:
+Only if it returns `True`, you can use:
 
 ```powershell
 & "$env:LOCALAPPDATA\Programs\Thonny\python.exe" -m pip install -r requirements.txt
 & "$env:LOCALAPPDATA\Programs\Thonny\python.exe" main.py
 ```
 
-Si devuelve `False`, esa ruta no existe: usá los pasos de `.venv` o reemplazá la ruta por la ubicación real del intérprete. Si Thonny está configurado con el intérprete que querés usar, podés consultar su ruta en la consola de Thonny ejecutando `import sys; print(sys.executable)`.
+If it returns `False`, that path does not exist: follow the `.venv` instructions or replace the path with the interpreter's actual location. If Thonny is configured with the interpreter you want to use, you can find its path by running `import sys; print(sys.executable)` in Thonny's shell.
 
-### Solución de errores frecuentes
+### Troubleshooting common errors
 
-| Error o síntoma | Causa y solución |
+| Error or symptom | Cause and solution |
 | --- | --- |
-| `Token 'main.py' inesperado` | En PowerShell, una ruta de ejecutable entre comillas necesita el operador `&` delante. Ejemplo: `& "C:\ruta\a\python.exe" main.py`. Copiá también el `&` inicial. |
-| `El término '...Thonny\python.exe' no se reconoce` | PowerShell entiende el comando, pero el ejecutable no existe en esa ruta. Comprobala con `Test-Path` y usá la ruta real o el entorno `.venv`. Agregar `&` no corrige una ruta inexistente. |
-| `python` no se reconoce, o indica que no se encontró Python y menciona Microsoft Store | Probá `py --version`. Si tampoco funciona, instalá o repará Python y reabrí la terminal. El acceso directo de Windows a Microsoft Store no confirma que haya un intérprete instalado. |
-| No se encuentra `.\.venv\Scripts\python.exe` | Comprobá que estás en la carpeta correcta y que creaste `.venv` en esta computadora siguiendo el paso 3. |
-| `No module named 'pygame'`, `No module named 'cv2'` u otra dependencia | Repetí el paso 4 y ejecutá el juego con el mismo Python de `.venv`. Instalar paquetes en otro intérprete no los agrega a este entorno. |
-| No se encuentra `requirements.txt` o no se puede abrir `main.py` | La terminal está en otra carpeta o la copia del proyecto está incompleta. Volvé al paso 2. |
-| Error al activar `Activate.ps1` por la política de ejecución | Esta guía no necesita activar `.venv`: ejecutá directamente `.\.venv\Scripts\python.exe main.py`. |
+| `Unexpected token 'main.py'` | In PowerShell, a quoted executable path requires the `&` operator before it. Example: `& "C:\path\to\python.exe" main.py`. Include the leading `&` when copying the command. |
+| `The term '...Thonny\python.exe' is not recognized` | PowerShell understands the command, but the executable does not exist at that path. Check it with `Test-Path` and use the actual path or the `.venv` environment. Adding `&` does not fix a nonexistent path. |
+| `python` is not recognized, or a message says Python was not found and mentions Microsoft Store | Try `py --version`. If that does not work either, install or repair Python and reopen the terminal. The Windows shortcut to Microsoft Store does not confirm that an interpreter is installed. |
+| `.\.venv\Scripts\python.exe` cannot be found | Check that you are in the correct folder and created `.venv` on this computer by following step 3. |
+| `No module named 'pygame'`, `No module named 'cv2'`, or another missing dependency | Repeat step 4 and run the game with the same Python from `.venv`. Installing packages into another interpreter does not add them to this environment. |
+| `requirements.txt` cannot be found or `main.py` cannot be opened | The terminal is in another folder or the project copy is incomplete. Return to step 2. |
+| Execution policy error when running `Activate.ps1` | This guide does not require activating `.venv`: run `.\.venv\Scripts\python.exe main.py` directly. |
 
 ## Run on macOS/Linux
 
@@ -186,7 +186,7 @@ python main.py
 
 ## Gameplay
 
-- Click GIRAR or press Space to spin. Press 1, 2, or 3 to prepare an equipped skill.
+- Click the spin button or press Space to spin. Press 1, 2, or 3 to prepare an equipped skill.
 - Match 12 or more copies of a symbol anywhere on the 6x6 board. A spin can have no symbol award.
 - Win more when a symbol count reaches 15-17 or 18+.
 - Earn gold, points, and XP.
@@ -194,7 +194,7 @@ python main.py
 - Purchase upgrades and skills.
 - Prepare up to three active skills. Cooldowns advance on completed paid spins.
 - Match your character and pet roles for +5% prizes and +10% XP.
-- Visit Taller for permanent upgrades, Mercado for skills/equipment, and Refugio for pets.
+- Visit the workshop for permanent upgrades, the market for skills/equipment, and the shelter for pets.
 - Each paid spin earns travel gold in addition to its prize; the sidebar shows the net balance.
 
 ## Slot math
